@@ -69,8 +69,7 @@
     source:
         name: Introducing the FAIR Principles for research software
         url: https://www.nature.com/articles/s41597-022-01710-x
-- &id001
-    abbreviation: flexibility
+-   abbreviation: flexibility
     description: 'Degree to which a product can be adapted to changes in its requirements,
         contexts of use or system environment. This characteristic is composed of
         the following sub-characteristics:
@@ -108,8 +107,106 @@
     source:
         name: ISO/IEC 25010 standard
         url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
-- *id001
-- *id001
+-   abbreviation: functional_suitability
+    created: 03-04-2025
+    description: 'This characteristic represents the degree to which a product or
+        system provides functions that meet stated and implied needs when used under
+        specified conditions. This characteristic is composed of the following sub-characteristics:
+
+
+        **Functional completeness**
+
+
+        Degree to which the set of functions covers all the specified tasks and intended
+        users'' objectives.
+
+
+        **Functional correctness**
+
+
+        Degree to which a product or system provides accurate results when used by
+        intended users.
+
+
+        **Functional appropriateness**
+
+
+        Degree to which the functions facilitate the accomplishment of specified tasks
+        and objectives.'
+    identifier: https://w3id.org/everse/i/dimensions/functional_suitability
+    name: Functional suitability
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+- &id001
+    abbreviation: interaction_capability
+    description: 'Degree to which a product or system can be interacted with by specified
+        users to exchange information via the user interface to complete specific
+        tasks in a variety of contexts of use. This characteristic is composed of
+        the following sub-characteristics:
+
+
+        **Appropriateness recognizability**
+
+
+        Degree to which users can recognize whether a product or system is appropriate
+        for their needs.
+
+
+        **Learnability**
+
+
+        Degree to which the functions of a product or system can be learnt to be used
+        by specified users within a specified amount of time.
+
+
+        **Operability**
+
+
+        Degree to which a product or system has attributes that make it easy to operate
+        and control.
+
+
+        **User error protection**
+
+
+        Degree to which a system prevents users against operation errors.
+
+
+        **User engagement**
+
+
+        Degree to which a user interface presents functions and information in an
+        inviting and motivating manner encouraging continued interaction.
+
+
+        **Inclusivity**
+
+
+        Degree to which a product or system can be used by people of various backgrounds
+        (such as people of various ages, abilities, cultures, ethnicities, languages,
+        genders, economic situations, etc.).
+
+
+        **User assistance**
+
+
+        Degree to which a product can be used by people with the widest range of characteristics
+        and capabilities to achieve specified goals in a specified context of use.
+
+
+        **Self-descriptiveness**
+
+
+        Degree to which a product presents appropriate information, where needed by
+        the user, to make its capabilities and use immediately obvious to the user
+        without excessive interactions with a product or other resources (such as
+        user documentation, help desks or other users).'
+    identifier: https://w3id.org/everse/i/dimensions/interaction_capability
+    name: Interaction Capability
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
 - *id001
 - *id001
 - *id001
